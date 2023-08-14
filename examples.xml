@@ -1,0 +1,1651 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source>VehicleSteeringControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex01087604</metadata>
+    <thumbnail>data/LKAfig.png</thumbnail>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1513269912">getCurvature.m</file>
+    <file component="mpc" timestamp="1513202830">LKAfig.png</file>
+    <file component="mpc" timestamp="1513269912">mpcLKAplot.m</file>
+    <file component="mpc" timestamp="1513276655">mpcLKAsystem.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ObtainTestResultsForMultipleControllersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01583467</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>GetControllerStateObjectExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex02696443</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateNonlinearMPCCodeGenerationStructuresExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03193617</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1574884690">pendulumOutputFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateLinearMPCControllersFromNonlinearMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03298310</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1532023895">oxidationStateFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpccustomestimation</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex04556110</metadata>
+    <thumbnail>html/mpccustomestimation_01.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>SolveGeneralQuadraticProgrammingProblemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06032591</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcsubsystemdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex07036815</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1482156915">mpcrtwdemo_trigger.png</file>
+    <file component="mpc" timestamp="1482156915">mpcrtwdemo_generator.png</file>
+    <file component="mpc" timestamp="1482156915">mpcrtwdemo_falling.png</file>
+    <file component="mpc" timestamp="1482156915">mpcrtwdemo_pulse.png</file>
+    <file component="mpc" timestamp="1634346965">mpc_rtwdemo.slx</file>
+    <file component="mpc" timestamp="1634346965">mpc_rtwdemo_functioncall.slx</file>
+    <file component="mpc" timestamp="1634346965">mpc_rtwdemo_triggered.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ampccstr_linearization</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex07272954</metadata>
+    <thumbnail>html/ampccstr_linearization_03.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1527007241">mpc_cstr.png</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcmotor</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex07481173</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>mpconlinetuning</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex08674259</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>SolveQuadraticProgrammingProblemUsingInteriorPointSolverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex09726972</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcweightsdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex09746159</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>SetInputDisturbanceModelToDefaultValueExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex12291720</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyCustomConstraintsForMPCWithMeasuredDisturbancesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex12723913</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyFixedParametersFor2DPlotOfExplicitControlLawExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15048352</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CalculateValueOfCustomPerformanceMetricExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15169337</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>RetrieveOutputDisturbanceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16217556</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateAndModifyDefaultMPCQPSolverOptionSetExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16927249</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>RunTimeHorizonAdjustmentExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex17609741</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1547395165">mpc_onlineHorizons.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ampccstr_lpv</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex18818571</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1527007241">mpc_cstr.png</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcdistillation</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19935809</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_tower.jpg</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_apd_model.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_sl_interface.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_apd_inputs.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_apd_outputs.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_sl_pct2engr.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_sl_engr2pct.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_sl_distillation.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_compare_plant.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_sl_mpc.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_compare_reflux.png</file>
+    <file component="mpc" timestamp="1512751429">mpcdistillation_feed_disturbance.png</file>
+    <file component="mpc" timestamp="1646392082">mpcdistillation_cdi_A.dat</file>
+    <file component="mpc" timestamp="1646392082">mpcdistillation_cdi_B.dat</file>
+    <file component="mpc" timestamp="1646392082">mpcdistillation_cdi_C.dat</file>
+  </demoitem>
+  <demoitem>
+    <source>RemoveInputDisturbanceForParticularChannelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20052093</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>IdentifyPlantFromDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20156178</metadata>
+    <product>control</product>
+    <product>ident</product>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1464113293">plantIO.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ParallelParkingUsingRRTPlannerAndMPCTrackingControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20179793</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>driving</product>
+    <product>nav</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1599581725">helperPlotVehicle.m</file>
+    <file component="mpc" timestamp="1599581725">helperSLVisualizeParking.m</file>
+    <file component="mpc" timestamp="1599581725">helperVehiclePolyshape.m</file>
+    <file component="mpc" timestamp="1599582328">mpcVDAutoParkingRRT.slx</file>
+    <file component="mpc" timestamp="1599582328">parkingStateValidator.m</file>
+    <file component="mpc" timestamp="1599582328">parkingTerminalConFcn.m</file>
+    <file component="mpc" timestamp="1599582328">parkingVehicleStateFcnRRT.m</file>
+    <file component="mpc" timestamp="1599582328">parkingVehicleStateJacobianFcnRRT.m</file>
+    <file component="mpc" timestamp="1599582328">plotAndAnimateParkingRRT.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpccstr</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex20937898</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1534429109">mpc_cstr.png</file>
+  </demoitem>
+  <demoitem>
+    <source>OptimizationAndControlOfBatchReactorExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex20987096</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1547095041">fedbatch_OutputFcn.m</file>
+    <file component="mpc" timestamp="1547095041">fedbatch_StateFcn.m</file>
+    <file component="mpc" timestamp="1547095041">fedbatch_StateFcnDT.m</file>
+    <file component="mpc" timestamp="1547095041">fedbatch_Track.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomKalmanFilterExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex21091218</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1610383934">mpc_KalmanFilter.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>RetrieveInputDisturbanceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex21558063</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpctmpdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex22380344</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="0">mpctmpdemo_plant.jpg</file>
+    <file component="mpc" timestamp="1630686371">mpctmpdemo_newapp.png</file>
+    <file component="mpc" timestamp="1630686371">mpctmpdemo_weightdlg.png</file>
+    <file component="mpc" timestamp="1630686371">mpctmpdemo_scenariodlg.png</file>
+    <file component="mpc" timestamp="1630686371">mpctmpdemo_fullapp.png</file>
+    <file component="mpc" timestamp="1631289654">mpctmp_cl.slx</file>
+    <file component="mpc" timestamp="1631289654">mpctmp_demodata.mat</file>
+    <file component="mpc" timestamp="1631289654">mpctmp_init.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NonlinearAndGSMPCControlOfAnEthyleneOxidationPlantExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex22449071</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1532107314">oxidationMPC.slx</file>
+    <file component="mpc" timestamp="1532107314">oxidationNMPC.slx</file>
+    <file component="mpc" timestamp="1532023895">oxidationStateFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NonlinearMPCExothermicCSTRExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex23351826</metadata>
+    <thumbnail>data/mpc_cstr.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1530195248">exocstrMeasFcn.m</file>
+    <file component="mpc" timestamp="1530195248">exocstrOutputFcn.m</file>
+    <file component="mpc" timestamp="1530195248">exocstrStateFcnCT.m</file>
+    <file component="mpc" timestamp="1530195248">exocstrStateFcnDT.m</file>
+    <file component="mpc" timestamp="1532109256">mpc_cstr_nonlinear.slx</file>
+    <file component="mpc" timestamp="1527007241">mpc_cstr.png</file>
+  </demoitem>
+  <demoitem>
+    <source>EconomicMPCControlOfEOExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex24164113</metadata>
+    <thumbnail>html/EconomicMPCControlOfEOExample_02.png</thumbnail>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1665511833">mpc_economicEO.slx</file>
+    <file component="mpc" timestamp="1665511833">oxidationPlantCT.m</file>
+    <file component="mpc" timestamp="1665511833">oxidationCostFcn.m</file>
+    <file component="mpc" timestamp="1665511833">oxidationPlantDT.m</file>
+  </demoitem>
+  <demoitem>
+    <source>empcdoubleint</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex24398238</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>ampccstr_estimation</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex24638454</metadata>
+    <thumbnail>html/ampccstr_estimation_03.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1527007241">mpc_cstr.png</file>
+  </demoitem>
+  <demoitem>
+    <source>RetrieveInputDisturbanceModelChannelsDefaultExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25723653</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateDefaultOptionSetForInteriorPointQPSolverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25812738</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulateLinearMPCControllerUsingMEXFileExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28049535</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcsensitivity</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28327888</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1632770699">custom_performance_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ParkingValetUsingNonlinearModelPredictiveControlExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28759019</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>driving</product>
+    <product>optim</product>
+    <product>nav</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1657893855">helperPlotVehicle.m</file>
+    <file component="mpc" timestamp="1657893855">helperSLCreateCostmap.m</file>
+    <file component="mpc" timestamp="1657893855">helperSLCreateUtilityBus.m</file>
+    <file component="mpc" timestamp="1657893855">helperSLCreateUtilityStruct.m</file>
+    <file component="mpc" timestamp="1657893855">helperSLMatchStructFields.m</file>
+    <file component="mpc" timestamp="1657893855">helperSLVisualizeParkingValet.m</file>
+    <file component="mpc" timestamp="1657893855">parked_cars.bmp</file>
+    <file component="mpc" timestamp="1599584328">plotTrajectoryParkingValet.m</file>
+    <file component="mpc" timestamp="1657893855">road_markings.bmp</file>
+    <file component="mpc" timestamp="1657893855">stationary.bmp</file>
+    <file component="mpc" timestamp="1657893855">helperVehiclePolyshape.m</file>
+    <file component="mpc" timestamp="1657893855">createMPCForTrackingVPP.m</file>
+    <file component="mpc" timestamp="1657893855">mpcInterpolatePathVPP.m</file>
+    <file component="mpc" timestamp="1657893855">parkingValetVPP.slx</file>
+    <file component="mpc" timestamp="1657893855">parkingVehicleStateFcnVPP.m</file>
+    <file component="mpc" timestamp="1657893855">parkingVehicleStateJacobianFcnVPP.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ComputeControllerPerformanceAndSensitivityExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex30166150</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>UseCustomQPSolverCodeGenerationExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex30638478</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>simulinkcoder</product>
+    <file timestamp="1512142220" component="mpc">mpc_customQPcodegen.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeVaryingMPCControlOfATimeVaryingLinearSystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex31085374</metadata>
+    <thumbnail>html/TimeVaryingMPCControlOfATimeVaryingLinearSystemExample_03.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1612447706">mpc_timevarying.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>empcmotor</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex31128799</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcoffsets</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex31270230</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractParametersForStateEstimationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex32302381</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulateMPCControlWithPlantModelMismatchExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33173641</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ExamineMPCControllerForDesignErrorsOrStabilityProblemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33184958</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateOptionSetSpecifyingInputArgumentTypeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33539328</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>AdaptiveCruiseControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex34380139</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1511995558">mpcACCfig.png</file>
+    <file component="mpc" timestamp="1512168044">mpcACCsystem.slx</file>
+    <file component="mpc" timestamp="1512167972">mpcACCplot.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseTheGPUToComputeOptimalMPCMovesInMATLABExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34504819</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ScheduleControllersAtMultipleOperatingPointsExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex34536640</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1470843953">mpc_switching_explicit.slx</file>
+    <file component="mpc" timestamp="1465854348">est_state_port.png</file>
+    <file component="mpc" timestamp="1465854348">mass_spring_system.png</file>
+    <file component="mpc" timestamp="1465854348">multiple_explicit_mpc_params.png</file>
+    <file component="mpc" timestamp="1465854348">multiple_mpc_params.png</file>
+    <file component="mpc" timestamp="1639175898">mpc_switching.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ChangeSignalTypesOfExistingControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34628175</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ObtainTestResultsAndSuppressTestingReportExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35164786</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>PlanOptimalTrajectoryUsingNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35300455</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1628167610">FlyingRobotPlotPlanning.m</file>
+    <file component="mpc" timestamp="1628167610">FlyingRobotStateFcn.m</file>
+    <file component="mpc" timestamp="1628167610">FlyingRobotStateJacobianFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>RemoveAllCustomConstraintsFromMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35975079</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyOptionsForCreatingMPCCodeGenerationStructuresExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36149769</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateNonlinearMPCControllerWithMDandUDExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36255550</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1530195248">exocstrOutputFcn.m</file>
+    <file component="mpc" timestamp="1530195248">exocstrStateFcnCT.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateMPCCodeGenerationDataStructuresExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36938419</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcsequence</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex37551902</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>PlanningControlFlyingRobotExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex37686985</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>ident</product>
+    <file component="mpc" timestamp="1628167610">FlyingRobotStateFcn.m</file>
+    <file component="mpc" timestamp="1626450333">FlyingRobotStateFcnDiscreteTime.m</file>
+    <file component="mpc" timestamp="1628167610">FlyingRobotStateJacobianFcn.m</file>
+    <file component="mpc" timestamp="1530826231">flyingrobot.png</file>
+    <file component="mpc" timestamp="1658344093">FlyingRobotPlotPlanning.m</file>
+    <file component="mpc" timestamp="1658344093">FlyingRobotPlotTracking.m</file>
+    <file component="mpc" timestamp="1626450333">FlyingRobotCostFcn.m</file>
+    <file component="mpc" timestamp="1658344093">nssExperimentDataSet.mat</file>
+    <file component="mpc" timestamp="1658344093">nssModel.mat</file>
+    <file component="mpc" timestamp="1658344093">trainFlyingRobotNeuralStateSpaceModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateInteriorPointOptionSetSpecifyingInputArgumentTypeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38271287</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyCustomHardConstraintsForAnMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38748636</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateAndSimulateAMultistageNonlinearMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39698512</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ValidateNonlinearMPCPredictionModelAndCustomFunctionsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40356777</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1529862852">FlyingRobotStateFcn.m</file>
+    <file component="mpc" timestamp="1529862852">FlyingRobotStateJacobianFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcrtwdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex41439343</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>simulinkcoder</product>
+    <file component="mpc" timestamp="1500580064">mpcrtwdemo_mv.png</file>
+    <file component="mpc" timestamp="1500580064">mpcrtwdemo_ov.png</file>
+    <file component="mpc" timestamp="1500580064">mpcrtwdemo_mv_single.png</file>
+    <file component="mpc" timestamp="1500580064">mpcrtwdemo_ov_single.png</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcopcdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42887719</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>icomm</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcmismatch</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42909559</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateExplicitMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex43924538</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignControllerForIdentifiedPlantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45879797</metadata>
+    <product>control</product>
+    <product>ident</product>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file timestamp="1464113293" component="mpc">plantIO.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DesignStateEstimatorByPolePlacementExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45917447</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulateMPCControllerWithACustomQPSolverExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex46163696</metadata>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1624444377">mpc_onlinemonitoring.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>empcaircraft</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex47355747</metadata>
+    <thumbnail>html/empcaircraft_02.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1631921309">empc_aircraft.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateMPCControllerwithSpecifiedPredictionandControlHoriExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47585553</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpconlinemonitoring</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex47900134</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1624444377">mpc_onlinemonitoring.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyRunTimeParametersForNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48912653</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeSteadyStateGainExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49359131</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>RetrieveOutputDisturbanceChannelsWithDefaultIntegratedExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49417906</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateCodeToPlanAndExecuteTrajectoriesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49711351</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>robotics</product>
+    <file component="mpc" timestamp="1609195537">helperCheckGoalReachedKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperCreateMovingObstaclesKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperCreateObstaclesKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperDesignNLMPCobjKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperFinalVisualizerKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperInitialVisualizerKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">helperTimeBasedStateInputsKINOVA.m</file>
+    <file component="mpc" timestamp="1609195537">helperUpdateMovingObstaclesKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcCostFunctionKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcIneqConFunctionKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcJacobianConstraintKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcJacobianCostKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcJacobianModelKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcJacobianOutputKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcModelKINOVACodeGen.m</file>
+    <file component="mpc" timestamp="1609195537">nlmpcOutputKINOVACodeGen.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcplcdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex51314018</metadata>
+    <thumbnail>html/mpcplcdemo_03.png</thumbnail>
+    <product>mpc</product>
+    <product>plccoder</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1500579856">mpcplcdemo_parameterdialog.png</file>
+    <file component="mpc" timestamp="1500579856">mpcplcdemo_report.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SetQuadprogAsACustomMPCSolverUsingSetCustomSolverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex51934269</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateParameterBusForNonlinearMPCControllerBlockExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex51994456</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1481931753">pendcartAnimationNMPC.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+    <file component="mpc" timestamp="1532112403">mpc_pendcartNMPC.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlOfQuadrupletankUsingPassivityBasedNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52601588</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1656430486">getPassivityInputQuadrupleTank.m</file>
+    <file component="mpc" timestamp="1656430486">getPassivityOutputQuadrupleTank.m</file>
+    <file component="mpc" timestamp="1656430486">quadrupleTankNLMPC.slx</file>
+    <file component="mpc" timestamp="1656430486">stateFcnQuadrupleTank.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateNLMPCControllerWithDiscreteTimePredictionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex55323136</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcnonlinear</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex56968539</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateAndModifyDefaultInteriorPointQPSolverOptionSetExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57044318</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcoptimalcost</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex57682948</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1635522103">mpc_optimalcost.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SetOutputDisturbanceModelToDefaultValueExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58232408</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcpreview</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex60177658</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyTerminalConstraintsForFinalPredictionHorizonRangeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60416453</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ExplicitMPCControlOfAnInvertedPendulumOnACartExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex60750423</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1665582625">mpc_pendcartExplicitMPC.slx</file>
+    <file component="mpc" timestamp="1449606504">pendcartAnimation.m</file>
+    <file component="mpc" timestamp="1449606504">pendulumDiagram.png</file>
+    <file component="mpc" timestamp="1534428608">mpc_pendcartPlant.slx</file>
+    <file component="mpc" timestamp="1663848110">pendulumDisturbanceExplicit.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>UseTheGPUToSimulateAnMPCControllerInSimulinkExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60861417</metadata>
+    <thumbnail>html/UseTheGPUToSimulateAnMPCControllerInSimulinkExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>gpucoder</product>
+    <product>simulinkcoder</product>
+    <file component="mpc" timestamp="1665835893">gpudemo.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>LinearizationUsingMatlabCodeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex61382235</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>slcontrol</product>
+  </demoitem>
+  <demoitem>
+    <source>SimplifyExplicitMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex61818279</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulationWithVaryingControllerPropertyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex62177699</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>LaneFollowingUsingNMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex62807052</metadata>
+    <thumbnail>data/mpcLKAfig.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1530208832">LaneFollowingCompareResults.m</file>
+    <file component="mpc" timestamp="1529957684">LaneFollowingEKFMeasFcn.m</file>
+    <file component="mpc" timestamp="1530208832">LaneFollowingEKFStateFcn.m</file>
+    <file component="mpc" timestamp="1531855923">LaneFollowingGetCurvature.m</file>
+    <file component="mpc" timestamp="1551972117">LaneFollowingNMPC.slx</file>
+    <file component="mpc" timestamp="1531855923">LaneFollowingStateFcn.m</file>
+    <file component="mpc" timestamp="1530208832">LaneFollowingStateJacFcn.m</file>
+    <file component="mpc" timestamp="1529957684">outputEqnImg.png</file>
+    <file component="mpc" timestamp="1629851587">stateEqnImg.png</file>
+    <file component="mpc" timestamp="1515695523">mpcLKAfig.png</file>
+    <file component="mpc" timestamp="1544737088">LaneFollowingUsingNMPCData.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateDefaultOptionSetForMPCQPSolverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex62879701</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SolveADiscreteSetMPCProblemInSimulinkExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63825920</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1605619376">dcsdemo.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyInputDisturbanceModelUsingTransferFunctionsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64143496</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlOfQuadrotorUsingNLMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64890575</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>symbolic</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1562875436">animateQuadrotor.p</file>
+    <file component="mpc" timestamp="1562875436">animateQuadrotorTrajectory.m</file>
+    <file component="mpc" timestamp="1652716371">getQuadrotorDynamicsAndJacobian.m</file>
+    <file component="mpc" timestamp="1619112757">plotQuadrotorTrajectory.m</file>
+    <file component="mpc" timestamp="1562875436">QuadrotorReferenceTrajectory.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseCustomConstraintsInBlendingProcessExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex65135174</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1672847066">mpc_blendingprocess.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>EvaluateScenarioAtSpecificTimeInstantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65467499</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeNLMPCControlMovesUsingCodeGenerationDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65946011</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>matlabcoder</product>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1574884690">pendulumOutputFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulateNonlinearMPCControllerUsingMEXFileExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66021746</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>matlabcoder</product>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+    <file component="mpc" timestamp="1574884690">pendulumOutputFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulateAMultistageNonlinearMPCUsingSimdataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66625472</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ResistantTBWithCustomSolverExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex67655790</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1530199933">ResistantTBCostFcn.m</file>
+    <file component="mpc" timestamp="1530199933">ResistantTBCostJacFcn.m</file>
+    <file component="mpc" timestamp="1530199933">ResistantTBPlot.m</file>
+    <file component="mpc" timestamp="1530199933">ResistantTBSolver.m</file>
+    <file component="mpc" timestamp="1530199933">ResistantTBStateFcn.m</file>
+    <file component="mpc" timestamp="1530199933">ResistantTBStateJacFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SetMPCSignalTypesAndCreateMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67868915</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignMPCControllerEquivalentToLQRControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex68589564</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex68821084</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcaircraft</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex69061400</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1631919186">mpc_aircraft.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ReviewModelPredictiveControllerForStabilityAndRobustnessExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69219499</metadata>
+    <thumbnail>html/ReviewModelPredictiveControllerForStabilityAndRobustnessExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlOfRobotManipulatorUsingPassivityBasedNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69297573</metadata>
+    <thumbnail>html/ControlOfRobotManipulatorUsingPassivityBasedNonlinearMPCExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1639740513">manipulatorStateFcn.m</file>
+    <file component="mpc" timestamp="1639740513">manipulatorNLMPC.slx</file>
+    <file component="mpc" timestamp="1639740513">getPassivityInput.m</file>
+    <file component="mpc" timestamp="1656437709">getPassivityOutput.m</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateJacobianFunctionsForMultistageNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69312830</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>UseSuboptimalSolutionInFastMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex69464362</metadata>
+    <thumbnail>html/UseSuboptimalSolutionInFastMPCExample_03.png</thumbnail>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1612447944">mpc_SuboptimalSolution.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcswitching</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex70664363</metadata>
+    <thumbnail>html/mpcswitching_03.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1672828381">mpc_switching_explicit.slx</file>
+    <file component="mpc" timestamp="1672828381">mpc_switching.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>CodeGenerationOfComputingOptimalMPCMovesInMATLABExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex71348759</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpccustomqp</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex71482288</metadata>
+    <thumbnail>html/mpccustomqp_02.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1570626694">mpc_activesetqp.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>RetrieveCustomConstraintsFromMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex71642413</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulateExplicitMPCUsingMpcmoveExplicitExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex72768172</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlOfAnInvertedPendulumOnACartExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex73475259</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1665143720">mpc_pendcartImplicitMPC.slx</file>
+    <file component="mpc" timestamp="1665143720">pendcartAnimation.m</file>
+    <file component="mpc" timestamp="1449606504">pendulumDiagram.png</file>
+    <file component="mpc" timestamp="1534278410">mpc_pendcartPlant.slx</file>
+    <file component="mpc" timestamp="1663847825">pendulumDisturbanceLTI.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcscalefactor</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73844848</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcvarbounds</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex74925950</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>ParallelParkingUsingNonlinearModelPredictiveControlExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75347459</metadata>
+    <thumbnail>html/ParallelParkingUsingNonlinearModelPredictiveControlExample_02.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>nav</product>
+    <product>optim</product>
+    <product>driving</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1652092502">analyzeParkingResults.m</file>
+    <file component="mpc" timestamp="1652092502">helperPlotVehicle.m</file>
+    <file component="mpc" timestamp="1599581725">helperSLVisualizeParking.m</file>
+    <file component="mpc" timestamp="1599581725">helperVehiclePolyshape.m</file>
+    <file component="mpc" timestamp="1599581725">mpcVDAutoParking.slx</file>
+    <file component="mpc" timestamp="1599581725">parkingCostFcn.m</file>
+    <file component="mpc" timestamp="1599581725">parkingCostJacobian.m</file>
+    <file component="mpc" timestamp="1599581725">parkingIneqConFcn.m</file>
+    <file component="mpc" timestamp="1599581725">parkingIneqConFcnJacobian.m</file>
+    <file component="mpc" timestamp="1599581725">parkingVehicleStateFcn.m</file>
+    <file component="mpc" timestamp="1599581725">parkingVehicleStateJacobianFcn.m</file>
+    <file component="mpc" timestamp="1599581725">plotAndAnimateParking.m</file>
+    <file component="mpc" timestamp="1599581725">runParkingAndPlot.m</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcbumpless</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex77418112</metadata>
+    <thumbnail>html/mpcbumpless_02.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1636755437">mpcbumpless_no_ext_mv.png</file>
+    <file component="mpc" timestamp="1636755437">mpc_bumpless.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyCustomConstraintsOnInputsAndOutputsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80492754</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcdoubleint</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81139019</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>GainScheduledMPCControlOfAnInvertedPendulumOnACartExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex82501620</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="mpc" timestamp="1665583421">pendcartAnimation.m</file>
+    <file component="mpc" timestamp="1449606504">pendulumDiagram.png</file>
+    <file component="mpc" timestamp="1665583421">mpc_pendcartGSMPC.slx</file>
+    <file component="mpc" timestamp="1638757830">mpc_pendcartPlant.slx</file>
+    <file component="mpc" timestamp="1663847955">pendulumDisturbanceGS.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>LandingRocketWithMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex83402669</metadata>
+    <thumbnail>html/LandingRocketWithMPCExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1674148075">LanderVehicleAnimation.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleCostFcn.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleCostGradientFcn.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehiclePlannerCostFcn.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehiclePlannerCostGradientFcn.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleReferenceSignal.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleSimulation.slx</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleStateFcn.m</file>
+    <file component="mpc" timestamp="1674148075">LanderVehicleStateJacobianFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ParallelParkingOfTruckTrailerUsingMultistageNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex84217031</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1639753432">costFcnPlanner.m</file>
+    <file component="mpc" timestamp="1639753432">costJacobianPlanner.m</file>
+    <file component="mpc" timestamp="1639753432">helperCreatePlotHandle.m</file>
+    <file component="mpc" timestamp="1639753432">helperSLVisualizeParkingTruck.m</file>
+    <file component="mpc" timestamp="1639753432">helperTruckPolyshape.m</file>
+    <file component="mpc" timestamp="1674232377">inEqConFcnPlannerParallel.m</file>
+    <file component="mpc" timestamp="1639753432">mpcGenerateInitialGuess.m</file>
+    <file component="mpc" timestamp="1639753432">mpcGeneratePlanner.m</file>
+    <file component="mpc" timestamp="1639753432">mpcGenerateTracker.m</file>
+    <file component="mpc" timestamp="1639753432">mpcInterpolatePathSL.m</file>
+    <file component="mpc" timestamp="1639753432">stateFcnTruck.m</file>
+    <file component="mpc" timestamp="1639753432">stateJacobianFcnTruck.m</file>
+    <file component="mpc" timestamp="1639753432">truckDimensions.mat</file>
+    <file component="mpc" timestamp="1639753432">truckParallelParking.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulateClosedLoopControlUsingNonlinearMPCControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex84317924</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1526857406">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>AnalyzeClosedLoopResponseExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85009665</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>RemoveOutputDisturbanceFromOutputChannelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85101531</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SurgeTankMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85586981</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1610722397">ReservoirMPC.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcmiso</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex86882437</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1633365098">mpc_miso.slx</file>
+    <file component="mpc" timestamp="1633365098">mpc_misonoise.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeVaryingMPCControlOfPendulumExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex87646926</metadata>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1449606504">pendcartAnimation.m</file>
+    <file component="mpc" timestamp="1483155481">pendulumCT.m</file>
+    <file component="mpc" timestamp="1500657244">pendulumDT.m</file>
+    <file component="mpc" timestamp="1665583551">mpc_pendcartLTVMPC.slx</file>
+    <file component="mpc" timestamp="1481931753">pendulumDiagramNMPC.png</file>
+    <file component="mpc" timestamp="1663847677">pendulumDisturbanceLTV.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>RemoveOutputDisturbancesFromAllOutputChannelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87802749</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstructOutputDisturbanceModelUsingTransferFunctionsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87825716</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>TruckAndTrailerParkingUsingMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex88672670</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1674241966">TruckTrailerCost.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerCostGradientFcn.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerIneqConFcn.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerInitialGuess.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerPlot.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerStateFcn.m</file>
+    <file component="mpc" timestamp="1674241966">TruckTrailerStateJacobianFcn.m</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerSystem.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX-40Y-10.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX-40Y-20.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX-40Y0.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX25Y-10.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX25Y-20.png</file>
+    <file component="mpc" timestamp="1610479661">TruckTrailerX25Y0.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SwingupControlOfPendulumUsingNMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex89761570</metadata>
+    <thumbnail>data/pendulumDiagramNMPC.png</thumbnail>
+    <product>mpc</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="mpc" timestamp="1665143595">pendcartAnimationNMPC.m</file>
+    <file component="mpc" timestamp="1481931753">pendulumDiagramNMPC.png</file>
+    <file component="mpc" timestamp="1594413360">pendulumCT0.m</file>
+    <file component="mpc" timestamp="1500578962">pendulumMeasurementFcn.m</file>
+    <file component="mpc" timestamp="1500657048">pendulumStateFcn.m</file>
+    <file component="mpc" timestamp="1526857406">pendulumDT0.m</file>
+    <file component="mpc" timestamp="1665143595">mpc_pendcartNMPC.slx</file>
+    <file component="mpc" timestamp="1594759897">pendulumFORCESPROblock.png</file>
+    <file component="mpc" timestamp="1594759897">pendulumFORCESPROresponse.png</file>
+    <file component="mpc" timestamp="1574884690">pendulumOutputFcn.m</file>
+    <file component="mpc" timestamp="1663847153">pendulumDisturbance.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>mpcutarget</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex90590805</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignControllerAtTheCommandLineExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex90879193</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+    <file component="mpc" timestamp="1626097287">mpcreview.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ObstacleAvoidingUsingAdaptiveMPCExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex91083107</metadata>
+    <thumbnail>html/ObstacleAvoidingUsingAdaptiveMPCExample_01.png</thumbnail>
+    <product>mpc</product>
+    <product>simulink</product>
+    <file timestamp="1500485730" component="mpc">obstacleComputeCustomConstraint.m</file>
+    <file timestamp="1500485730" component="mpc">obstacleDetect.m</file>
+    <file timestamp="1500485730" component="mpc">obstacleGenerateObstacleGeometryInfo.m</file>
+    <file timestamp="1500485730" component="mpc">obstaclePlotInitialCondition.m</file>
+    <file timestamp="1500486703" component="mpc">obstacleVehicleModelCT.m</file>
+    <file timestamp="1613583550" component="mpc">obstacleVehicleModelDT.m</file>
+    <file timestamp="1521039377" component="mpc">mpc_ObstacleAvoidance.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SolveADiscreteSetMPCProblemInMATLABExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91281852</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SimulateMPCControlOfMISOPlantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91410523</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyConstraintsPenaltyWeightAtLastPredictHorizStepExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95055857</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeOptimalControlMovesUsingCodeGenDataStructuresExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex96858313</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <product>mpc</product>
+  </demoitem>
+  <demoitem>
+    <source>mpcmixedconstraints</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex98144625</metadata>
+    <thumbnail>html/mpcmixedconstraints_01.png</thumbnail>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+  </demoitem>
+  <demoitem>
+    <source>PlanParallelParkingPathUsingMultistageNonlinearMPCExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex98341891</metadata>
+    <product>matlab</product>
+    <product>mpc</product>
+    <product>simulink</product>
+    <product>optim</product>
+    <file component="mpc" timestamp="1657893855">helperPlotVehicle.m</file>
+    <file component="mpc" timestamp="1599581725">helperSLVisualizeParking.m</file>
+    <file component="mpc" timestamp="1657893855">helperVehiclePolyshape.m</file>
+    <file component="mpc" timestamp="1657895470">pathPlanningVPP.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertUnconstrainedMPCControllerToStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99287602</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>mpc</product>
+  </demoitem>
+</demos>
