@@ -1,11 +1,10 @@
-%% Adaptive Cruise Control System Using Model Predictive Control
+%% Adaptive Cruise Control System Using PID Control
 % This example shows how to use the
 % <docid:mpc_ref#mw_b6137087-34df-4886-a19f-85d7b7612bbf Adaptive Cruise Control System> block in
 % Simulink(R) and demonstrates the control objectives and constraints of
 % this block.
 
 % Copyright 2017-2021 The MathWorks, Inc.
-
 %% Adaptive Cruise Control System
 % A vehicle (ego car) equipped with adaptive cruise control (ACC) has a
 % sensor, such as radar, that measures the distance to the preceding
@@ -49,8 +48,8 @@ open_system(mdl)
 
 %%
 % Define the sample time, |Ts|, and simulation duration, |T|, in seconds.
-Ts = 0.1;
-T = 160;
+Ts = 0.01;
+%T = 160;
 
 %%
 % For both the ego vehicle and the lead vehicle, the dynamics between
@@ -62,16 +61,25 @@ T = 160;
 
 %%
 % Specify the linear model for ego car.
-G_ego = tf(1,[0.5,1,0]);
+%G_ego = tf(1,[0.5,1,0]);
 
 %%
 % Specify the initial position and velocity for the two vehicles.
-x0_lead = 50;   % initial position for lead car (m)
-v0_lead = 75;   % initial velocity for lead car (m/s)
+% Specify the initial position and velocity for the two vehicles.
+x0_lead = 50; % Initial lead car position (m)
+v0_lead = 20; % Initial lead car velocity (m/s)
+x0_ego = 10;  % Initial ego car position (m)
+v0_ego = 20;  % Initial ego car velocity (m/s)
+% Specify the driver-set velocity in m/s.
+v_set = 29;
 
-x0_ego = 20;   % initial position for ego car (m)
-v0_ego = 90;   % initial velocity for ego car (m/s)
-
+% Atualização Leonardo Mello 16/08/23
+%v_min = 40;
+%vehicle_Velocity = 40;
+Brake_Pedal_Sensor = 0;
+Gas_Pedal_Sensor = 0;
+Fault_signal = 0;
+ACC_input = 1;
 %% Configuration of Adaptive Cruise Control System Block
 % The ACC system is modeled using the Adaptive Cruise Control System Block
 % in Simulink. The inputs to the ACC system block are:
@@ -93,17 +101,13 @@ v0_ego = 90;   % initial velocity for ego car (m/s)
 % where $D_{default}$ is the standstill default spacing and $T_{gap}$ is
 % the time gap between the vehicles. Specify values for $D_{default}$, in
 % meters, and $T_{gap}$, in seconds.
-t_gap = 1.4;
+t_gap = 3;
 D_default = 10;
-
-%%
-% Specify the driver-set velocity in m/s.
-v_set = 90;
 
 %%
 % Considering the physical limitations of the vehicle dynamics, the
 % acceleration is constrained to the range  |[-3,2]| (m/s^2).
-amin_ego = -30;
+amin_ego = -5;
 amax_ego = 2;
 
 %%
@@ -149,5 +153,3 @@ sim(mdl)
 % When the actual distance is sufficiently large, then the controller
 % ensures that the ego vehicle follows the driver-set velocity.
 
-%%
-% Atualização Leonardo Mello
