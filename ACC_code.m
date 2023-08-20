@@ -62,14 +62,15 @@ Ts = 0.01;
 %%
 % Specify the linear model for ego car.
 %G_ego = tf(1,[0.5,1,0]);
-
+m = 0.5;
+b = 2;
 %%
 % Specify the initial position and velocity for the two vehicles.
 % Specify the initial position and velocity for the two vehicles.
 x0_lead = 50; % Initial lead car position (m)
-v0_lead = 20; % Initial lead car velocity (m/s)
-x0_ego = 10;  % Initial ego car position (m)
-v0_ego = 20;  % Initial ego car velocity (m/s)
+v0_lead = 25; % Initial lead car velocity (m/s)
+x0_ego = 40;  % Initial ego car position (m)
+v0_ego = 30;  % Initial ego car velocity (m/s)
 % Specify the driver-set velocity in m/s.
 v_set = 29;
 
