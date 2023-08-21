@@ -68,11 +68,11 @@ b = 50;
 % Specify the initial position and velocity for the two vehicles.
 % Specify the initial position and velocity for the two vehicles.
 x0_lead = 50; % Initial lead car position (m)
-v0_lead = 25; % Initial lead car velocity (m/s)
+v0_lead = 90; % Initial lead car velocity (m/s)
 x0_ego = 30;  % Initial ego car position (m)
-v0_ego = 20;  % Initial ego car velocity (m/s)
+v0_ego = 80;  % Initial ego car velocity (m/s)
 % Specify the driver-set velocity in m/s.
-v_set = 29;
+v_set = 100;
 
 % Atualização Leonardo Mello 16/08/23
 %v_min = 40;
@@ -102,14 +102,14 @@ ACC_input = 1;
 % where $D_{default}$ is the standstill default spacing and $T_{gap}$ is
 % the time gap between the vehicles. Specify values for $D_{default}$, in
 % meters, and $T_{gap}$, in seconds.
-t_gap = 3;
+Time_Gap = 3;
 D_default = 10;
 
 %%
 % Considering the physical limitations of the vehicle dynamics, the
 % acceleration is constrained to the range  |[-3,2]| (m/s^2).
 amin_ego = -5;
-amax_ego = 2;
+amax_ego = 1.47;
 
 %%
 % For this example, the default parameters of the Adaptive Cruise Control
