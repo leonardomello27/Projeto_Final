@@ -62,17 +62,17 @@ Ts = 0.01;
 %%
 % Specify the linear model for ego car.
 %G_ego = tf(1,[0.5,1,0]);
-m = 1000;
-b = 50;
+m = 0.5;
+b = 1;
 %%
 % Specify the initial position and velocity for the two vehicles.
 % Specify the initial position and velocity for the two vehicles.
 x0_lead = 50; % Initial lead car position (m)
-v0_lead = 90; % Initial lead car velocity (m/s)
+v0_lead = 70; % Initial lead car velocity (km/h)
 x0_ego = 30;  % Initial ego car position (m)
-v0_ego = 80;  % Initial ego car velocity (m/s)
+v0_ego = 80;  % Initial ego car velocity (km/h)
 % Specify the driver-set velocity in m/s.
-v_set = 100;
+% v_set = 100;
 
 % Atualização Leonardo Mello 16/08/23
 %v_min = 40;
@@ -80,7 +80,7 @@ v_set = 100;
 Brake_Pedal_Sensor = 0;
 Gas_Pedal_Sensor = 0;
 Fault_signal = 0;
-ACC_input = 1;
+%ACC_input = 1;
 %% Configuration of Adaptive Cruise Control System Block
 % The ACC system is modeled using the Adaptive Cruise Control System Block
 % in Simulink. The inputs to the ACC system block are:
