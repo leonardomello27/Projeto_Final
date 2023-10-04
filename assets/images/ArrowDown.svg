@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="axesToolbarArrowDown.svg"
+   version="1.1"
+   viewBox="0 0 16 16"
+   data-name="Layer 1"
+   id="Layer_1">
+  <metadata
+     id="metadata893">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs891" />
+  <sodipodi:namedview
+     inkscape:current-layer="Layer_1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="31"
+     inkscape:window-x="0"
+     inkscape:cy="8.8080808"
+     inkscape:cx="7.1010101"
+     inkscape:zoom="49.5"
+     showgrid="false"
+     id="namedview889"
+     inkscape:window-height="983"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <polygon
+     transform="rotate(90,8.59,7.91)"
+     id="polygon886"
+     points="6.35,13.85 5.65,13.15 10.29,8.5 5.65,3.85 6.35,3.15 11.71,8.5 " />
+</svg>
